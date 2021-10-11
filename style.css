@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+.navData {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #2e3192;
+    justify-content: space-between;
+}
+
+.companyData {
+    display: flex;
+    width: 100%;
+    color: white;
+}
+
+.companyPic {
+    display: flex;
+    width: 16%;
+}
+
+.iconData {
+    font-size: 1vw;
+    justify-content: flex-end;
+    text-align: center;
+    color: white;
+    display: flex;
+    gap: 1rem;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: x-large;
+}
+
+.sectionA {
+    background-image: url(./img/img.jpg);
+    text-align: center;
+    padding: 6vw;
+}
+
+.select {
+    display: inline-block;
+    border: 0;
+    width: 8vw ;
+    height: 3vw;
+    padding-right: 2vw;
+}
+
+.search {
+    display: inline-block;
+    width: 30vw;
+    height: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.submit {
+    display: inline-block;
+    border: 0;
+    width: 5vw;
+    height: 3vw;
+}
