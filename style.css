@@ -45,30 +45,58 @@ html {
 }
 
 .sectionA {
-    background-image: url(./img/img.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     text-align: center;
-    padding: 6vw;
 }
 
-.select {
-    display: inline-block;
+.search-bar {
+    margin: 0 0 0 15vw;
+    
+}
+
+body {
+    font-family: Arial;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form.example input[type=text] {
+    padding: 1%;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 55%;
+    background: #f1f1f1;
+}
+
+form.example .button1 {
+    display: flex;
+    gap: 5%;
+    float: left;
+    width: 15%;
+    padding: 12px;
+    background: #ececec;
+    color: #333;
+    font-size: 17px;
+    border: 1px solid grey;
     border: 0;
-    width: 8vw ;
-    height: 3vw;
-    padding-right: 2vw;
+    cursor: pointer;
 }
 
-.search {
-    display: inline-block;
-    width: 30vw;
-    height: 3vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
-}
-
-.submit {
-    display: inline-block;
+form.example .button2 {
+    display: flex;
+    gap: 5%;
+    float: left;
+    width: 10%;
+    padding: 12px;
+    background: #058b80;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
     border: 0;
-    width: 5vw;
-    height: 3vw;
+    cursor: pointer;
 }
