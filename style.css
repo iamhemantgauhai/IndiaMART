@@ -20,26 +20,22 @@ body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-.navData {
+.nav-data {
     width: 100%;
     display: flex;
     align-items: center;
     background-color: #2e3192;
-    gap: 60%;
+    gap: 65%;
 }
 
-.companyData {
+.company-logo {
+    height: 5rem;
+    width: 15rem;
     display: flex;
-    width: 100%;
-    color: white;
+    margin-left: 1rem;
 }
 
-.companyPic {
-    display: flex;
-    width: 16%;
-}
-
-.iconData {
+.icon-data {
     font-size: 1vw;
     justify-content: flex-end;
     text-align: center;
@@ -48,7 +44,7 @@ body {
     gap: 1rem;
 }
 
-.main {
+.main-data {
     background-color: #ebedfd;
 }
 
@@ -59,7 +55,7 @@ body {
     font-size: x-large;
 }
 
-.section1 {
+.first-section {
     background-image: url(./img/img.jpg);
     padding: 6vw;
     display: flex;
@@ -90,7 +86,6 @@ body {
     color: #333;
     font-size: 1vw;
     border: 1px solid grey;
-    border-left: none;
     cursor: pointer;
 }
 
@@ -122,7 +117,7 @@ body {
     height: 80%;
 }
 
-.dataLink1{
+.dataLink1 {
     display: flex;
     flex-direction: row;
     gap: 8vw;
@@ -192,16 +187,17 @@ body {
 }
 
 .part2 {
+    width: 100%;
+    height: 30vw;
     display: flex;
     flex-direction: column;
     background-image: url(./img/home-banner-4.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 100%;
-    height: 25vw;
     align-items: flex-end;
-    margin-top: 1vw;
+    margin-right: 3rem;
+    margin-left: 3rem;
 }
 
 .section3 {
@@ -216,7 +212,7 @@ body {
     margin: 8vw;
     flex-direction: column;
     width: 30%;
-    gap: 1vw;
+    gap: 1rem;
 }
 
 .nameInput {
@@ -233,6 +229,13 @@ body {
 }
 
 .section4 {
+    gap: 20vw;
+    justify-content: center;
+    align-self: center;
+    margin: 0 3rem 0 3rem;
+}
+
+.section5 {
     gap: 20vw;
     justify-content: center;
     align-self: center;
